@@ -4,6 +4,7 @@ ignore everything by default
 # Allow .asm and .bat and gitignore files
 !*.asm
 !*.def
+!*.bat
 !.gitignore
 
 # Allow directories (so Git can track allowed files inside them)
