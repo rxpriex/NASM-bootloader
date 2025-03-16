@@ -1,11 +1,25 @@
-ignore everything by default
+# Exclude all files and directories by default
 *
 
-# Allow .asm and .bat and gitignore files
+# Include important language source files
+!*.c
+!*.cpp
 !*.asm
-!*.def
-!*.bat
-!.gitignore
+!*.java
+!*.py
+!*.js
+!*.php
+!*.h
+!*.hpp
 
-# Allow directories (so Git can track allowed files inside them)
-!*/
+# Include important build system files
+!CMakeLists.txt
+!Makefile
+!*.cmake
+!*.mk
+
+# Include important GitHub and documentation files
+!README.md
+!LICENSE
+!*.md
+!*.txt
