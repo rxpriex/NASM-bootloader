@@ -3,7 +3,8 @@
 
 # Include important language source files
 !src
-!screenshots/*.png
+!screenshots
+!*.png
 !*.c
 !*.cpp
 !*.asm
