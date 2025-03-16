@@ -2,6 +2,7 @@
 *
 
 # Include important language source files
+!src
 !*.c
 !*.cpp
 !*.asm
